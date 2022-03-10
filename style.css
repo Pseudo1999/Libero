@@ -1,0 +1,398 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header{
+    background-color:#273C57;
+    height:145px;
+    width: 100%;
+}
+
+.logo img{
+    width:57px;
+    height: 47px;
+    margin-left: 65px;
+    margin-top: 51px;
+}
+
+.libero img{
+    position: absolute;
+    width: 232px;
+    height: 42px;
+    left: 170px;
+    top: 52px;
+    cursor: pointer;
+}
+
+.links{
+    display: flex;
+    margin-top:-45px;
+}
+.links li{
+    display: inline-block;
+}
+
+.links li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+
+    font-style: normal;
+    font-weight:200;
+    font-size: 29px;
+    letter-spacing: 0.09em;
+}
+.links{
+    margin-left:491px; 
+}
+
+.news a{
+    margin-left:37px ;
+}
+.events a{
+    margin-left:52px ;    
+}
+.world a{
+    margin-left:52px ;    height: 57px;
+}
+
+.search img{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top:-45px;
+    margin-left:1250px;
+}
+
+.first img{
+    position: absolute;
+    width: 225px;
+    height: 126px;
+    left: 1042px;
+    top: 345px;
+}
+
+.how h2{
+    position: absolute;
+    font-weight: 600;
+    font-size: 46px;
+    left: 170px;
+    top: 201px;
+    color: #092239;
+}
+
+.postcode h2{
+    position: absolute;
+    margin-left:196px;
+    margin-top:148px;
+    font-weight: 300;
+    font-size: 26px;
+    color: #464646;
+}
+
+.code input{
+    margin-top: 182px;
+    margin-left: 196px;
+    border-radius: 50px;
+    width: 159px;
+    height: 45px;
+    border: 3px solid #4272E7;
+    letter-spacing: 1px;
+}
+
+.buttons2 {
+    margin-left: 196px;
+    margin-top: 15px;
+    
+}
+.buttons2 button{
+        color:#4076F0;
+        width: 106px;
+        height: 45px;
+        border-radius: 50px;
+        font-size: 25px;
+        border: 3px solid #4076F0;
+        padding-top: 3px;  
+} 
+
+.buttons2 input{
+        width: 22px;
+        height: 22px;
+}
+
+.buttons2 :hover{
+    background-color:#4076F0;
+    color: white;
+}
+
+.inputfield{
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+    color: #092239;
+    
+}
+
+.should h2{
+        color: #464646;
+        font-weight: 300;
+        margin-left: 196px;
+        margin-top:20px;
+        font-size: 25px;
+}
+
+
+.email h2{
+    color: #464646;
+    font-size: 26px;
+    margin-left: 196px;
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+.email input{
+    margin-left: 196px;
+    width: 303px;
+    height: 45px;
+    border-radius: 50px;
+    border: 3px solid #4076F0;
+}
+
+.submits{
+    margin-left: 721px;
+    margin-top: 16px;
+    
+}
+
+.submits button{
+    width:183px;
+    height: 49px;
+    background: #08223B;
+    border-radius: 50px;
+    color: white;
+    border: 1px solid #08223B;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.submits h2{
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.horizontal hr{
+    width: 1px;
+    height: 599px;
+    background-color: black;
+    margin-left: 1012px;
+    margin-top: -555px;
+}
+
+.phasellus h2{
+    margin-left: 1042px;
+    margin-top: -580px;
+    font-size: 29px;
+    font-weight: 600;
+}
+
+.blueline{
+    width: 226px;
+    height: 11px;
+    background-color: #4076F0;
+    margin-top: 15px;
+    margin-left: 1042px;
+}
+
+.blueline img{
+    width: 225px;
+    height: 126px;
+    margin-top: 20px;
+    
+}
+.middlecontent{
+    transition: .5s ease;
+    opacity:0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 225px;
+    height: 126px;
+    letter-spacing: 3px;
+    margin-top: 77px;
+    margin-left: -1px;
+}
+
+.middlecontent h2{
+    font-size: 18px;
+    color: white;
+    font-weight: 200;
+    margin-top:40px ;
+}
+
+.blueline{
+	position: relative;
+	color: white;
+}
+
+.middlecontent:hover{
+    opacity:1;
+    background: rgba(0, 0, 0,0.7);
+}
+
+.middlecontent button{
+    width: 100px;
+    height: 24px;
+    background: rgba(82, 111, 183, 0.7);
+    color: rgb(245, 245, 245);
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: -125px;
+}   
+
+.augue h2{
+    color: #535353;
+    font-size: 21px;
+    margin-left: 1042px;
+    margin-top: 152px;
+    width: 250px;
+    font-weight: 400;
+    letter-spacing: .5px;
+}
+
+.blueline2{
+    width: 226px;
+    height: 11px;
+    background-color: #4076F0;
+    margin-top: 15px;
+    margin-left: 1042px;
+    position: relative;
+}
+
+.blueline2 img{
+    width: 225px;
+    height: 137px;
+    margin-top: 20px;
+}
+
+.middlecontent2{
+    transition: .5s ease;
+    opacity:0;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-top: 78px;
+    width: 225px;
+    height: 8rem;
+    margin-left: -1px;
+}
+.middlecontent2:hover{
+    opacity:1;
+    background: rgba(0, 0, 0,0.7);
+}
+
+.middlecontent2 h2{
+    font-size: 18px;
+    color: white;
+    font-weight: 200;
+    margin-top:40px ;
+}
+
+.middlecontent2 button{
+    width: 100px;
+    height: 24px;
+    background: rgba(82, 111, 183, 0.7);
+    color: white;
+    font-size: 12px;
+    margin-top: 31px;
+    margin-left: -125px;
+}   
+
+.bar hr{
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    margin-top: 80px;
+}
+
+.rightcontent{
+    margin-top: 20px;
+}
+
+.lowercontent{
+    margin-left: 196px;
+    margin-top: 33px;
+    margin-bottom: 21px;
+    display: flex;
+}
+
+.lowercontent h4{
+    font-size: 22px;
+    font-weight: 600;
+    color: black;
+    letter-spacing: 1px;
+
+}
+
+.lowercontent .words h5{
+    font-size: 22px;
+    font-weight:200;
+}   
+
+.lowercontent .secondlist{
+    margin-left: 76px;
+}
+
+.lowercontent .thirdlist{
+    margin-left: 54px;
+}
+.lowercontent .fourthlist{
+    margin-left: 47px;
+}
+
+.underline hr{
+    height: 3px;
+    width: 101px;
+    background-color: #688EDC;
+    margin-top: 8px;
+}
+
+.words h5{
+    margin-top: 18px;
+}
+
+.circles .circle{
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    background-color:#4076F0;
+    margin-left: 121px;
+    margin-top: 12px;
+}
+.circles{
+    margin-top: -15px;
+}
+
+.circles h2{
+    font-size: 22px;
+    margin-left: 48px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+#phasellus{
+    padding-top: 3px;
+}
+
+
+
+
+
+
